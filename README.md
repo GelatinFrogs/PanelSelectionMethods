@@ -10,7 +10,7 @@ Despite the increased panel sizes that multiplex imaging enables, they are still
 
 ## Selection Methods
 1) Correlation-based Selection: a reduced panel is chosen such that the correlations between the sub-panel and the full panel are maximized.
-2) Gradient-based Selection: an ME-VAE is trained to embed and reconstruct the full panel, then using the gradient at the embedding layer, the most important stains are selected.
+2) Gradient-based Selection: an ME-VAE is trained to embed and reconstruct the full panel. Then using the gradient at the embedding layer, the most important stains are selected.
 3) Sparse Subspace Clustering: a coefficient matrix is trained such that the intensites of the panel can be reconstructed from a combination of other stains. Then the stains with the highest interactions are selected.
 
 ## Results
