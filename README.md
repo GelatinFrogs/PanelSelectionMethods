@@ -2,7 +2,7 @@
 Despite the increased panel sizes that multiplex imaging enables, they are still limited by practical capacities at high rounds of staining that reduce image quality. For this reason it is necessary to choose panels intelligently such that the most biological information is obtained. Designing such panels, however, is difficult becuase it isn't always possible to know which markers will be informative and which will be reduceable ahead of time. Here I present a series of methods that were tested for quantitatively selecting a reduced panel which can then be used to reconstruct the full panel, such that the maximum amount of information is retained.
 
 <p align='center'>
-  Example workflow 1) Implementing methods for panel selection 2) Full panel reconstruction using ME-VAE 3) Quantitative evaluation.
+  **Example workflow 1) Implementing methods for panel selection 2) Full panel reconstruction using ME-VAE 3) Quantitative evaluation.**
 </p> 
 <p align='center'>
   <img src='src/main_panel_reduction.png' width='1000'/>
@@ -17,7 +17,7 @@ Despite the increased panel sizes that multiplex imaging enables, they are still
 By using these methods for selection and the [ME-VAE](https://github.com/GelatinFrogs/ME-VAE_Architecture) for reconstruction, information regarding the full panel can be maximized. This allows researchers to enable better analysis using fewer stains. This saves time, money, and effort in multiplex experiments, and makes room on panels for potentially new and important markers that couldn't be fit before.
 
 <p align='center'>
-  Correlations between full and reconstructed cell images for each selection method over a series of panel sizes.
+  **Correlations between full and reconstructed cell images for each selection method over a series of panel sizes.**
 </p> 
 <p align='center'>
   <img src='src/Figure8.png' width='600'/>
