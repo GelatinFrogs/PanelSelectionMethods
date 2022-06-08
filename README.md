@@ -24,10 +24,10 @@ By using these methods for selection and the [ME-VAE](https://github.com/Gelatin
 </p> 
 
 ## Pre-requisites
-Linux or macOS
-NVIDIA GPU (memory suitable for image size) + CUDA cuDNN
-Tested on Python 3.7.10
-Tested on Tensorflow 2.2.0
+- Linux or macOS
+- NVIDIA GPU (memory suitable for image size) + CUDA cuDNN
+- Tested on Python 3.7.10
+- Tested on Tensorflow 2.2.0
 
 ## License
  This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License: https://creativecommons.org/licenses/by-nc-nd/4.0/
